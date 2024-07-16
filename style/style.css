@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: Azeret Mono;
+}
 .hero {
   /* width: 600px; */
   background-image: url("../assets/Hero-bg.png");
@@ -84,4 +87,66 @@
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.testimonial-title {
+  font-size: 24px;
+  font: bold;
+  line-height: 50px;
+  margin: 10px 0;
+}
+
+.testimonial-text {
+  font-family: Azeret Mono;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px 0;
+}
+
+.testimonial-btn {
+  padding: 10px 15px;
+  background: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0;
+  color: #555a63;
+  border-color: #555a63;
+}
+
+.inspiration-title {
+  font-size: 32px;
+  font: bold;
+  line-height: 50px;
+  margin: 10px 0;
+}
+
+.c2 {
+  font-family: Azeret Mono;
+  font-weight: 400;
+  font-size: 16px;
+  height: 26px;
+  letter-spacing: 0%;
+}
+
+.learn-more-btn {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0d1321;
+}
+
+.current-target-parrent {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.reactjs {
+  display: flex;
+  align-items: center;
+  border: 2px solid #f1f2f3;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 10px;
 }
